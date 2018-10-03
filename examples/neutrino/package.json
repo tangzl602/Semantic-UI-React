@@ -1,0 +1,32 @@
+{
+  "name": "semantic-ui-react-example-neutrino",
+  "description": "Get started with Semantic UI React and Neutrino",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "semantic-ui-less": "^2.4.0",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "devDependencies": {
+    "@neutrinojs/style-loader": "^8.3.0",
+    "@neutrinojs/react": "^8.3.0",
+    "less": "^2",
+    "less-loader": "^4.1.0",
+    "neutrino": "^8.3.0",
+    "postcss": "^7.0.5",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.0.10"
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
