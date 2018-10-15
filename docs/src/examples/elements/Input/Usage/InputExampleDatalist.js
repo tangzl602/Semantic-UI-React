@@ -5,9 +5,9 @@ const InputExampleDatalist = () => (
   <div>
     <Input list='languages' placeholder='Choose language...' />
     <datalist id='languages'>
-      <option value='English' />
-      <option value='Chinese' />
-      <option value='Dutch' />
+      <option value='' />
+      <option value='' />
+      <option value='' />
     </datalist>
   </div>
 )
